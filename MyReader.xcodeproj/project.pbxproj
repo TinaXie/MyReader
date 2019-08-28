@@ -1,0 +1,1042 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A1796CA0E295C35ACCBD755 /* libPods-MyReader.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44A820F7B090CFCA756BAB1C /* libPods-MyReader.a */; };
+		10A8F43F97C4DC69F009AB05 /* libPods-MyReaderTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 59755850550F3F26667CAA09 /* libPods-MyReaderTests.a */; };
+		89AE776F02DB2A9C72152532 /* libPods-MyReaderUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EF7427D78612239F5EF68E0 /* libPods-MyReaderUITests.a */; };
+		A222D24B21A5550D0085835B /* 郭黄之恋.txt in Resources */ = {isa = PBXBuildFile; fileRef = A222D24921A5550D0085835B /* 郭黄之恋.txt */; };
+		A222D24C21A5550D0085835B /* 每天懂一点好玩心理学.epub in Resources */ = {isa = PBXBuildFile; fileRef = A222D24A21A5550D0085835B /* 每天懂一点好玩心理学.epub */; };
+		A2252ED621ABC55300997A3C /* 最后一个道士.txt in Resources */ = {isa = PBXBuildFile; fileRef = A2252ED421ABC55300997A3C /* 最后一个道士.txt */; };
+		A230AFA3219EA920008B17F8 /* DUAStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A230AFA2219EA920008B17F8 /* DUAStatusBar.m */; };
+		A230AFA6219EABA8008B17F8 /* DUATableView.m in Sources */ = {isa = PBXBuildFile; fileRef = A230AFA5219EABA8008B17F8 /* DUATableView.m */; };
+		A230AFA9219EAD3E008B17F8 /* DUATableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A230AFA8219EAD3E008B17F8 /* DUATableViewCell.m */; };
+		A230AFAD219EB2F5008B17F8 /* DUAConVexLensView.m in Sources */ = {isa = PBXBuildFile; fileRef = A230AFAC219EB2F5008B17F8 /* DUAConVexLensView.m */; };
+		A230AFB0219EB79B008B17F8 /* DUAAttributedView.m in Sources */ = {isa = PBXBuildFile; fileRef = A230AFAF219EB79B008B17F8 /* DUAAttributedView.m */; };
+		A25E0D6021C740B600F9FC40 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A25E0D5F21C740B600F9FC40 /* CoreTelephony.framework */; };
+		A25E0D7821C74A2000F9FC40 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A25E0D7721C74A2000F9FC40 /* libbz2.tbd */; };
+		A25E0D7A21C74A2B00F9FC40 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A25E0D7921C74A2B00F9FC40 /* libsqlite3.tbd */; };
+		A25E0D7C21C74A3400F9FC40 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A25E0D7B21C74A3400F9FC40 /* SystemConfiguration.framework */; };
+		A25E0D8421C74E9300F9FC40 /* 奇术之王.epub in Resources */ = {isa = PBXBuildFile; fileRef = A25E0D8221C74E9200F9FC40 /* 奇术之王.epub */; };
+		A25E0D8721C7739A00F9FC40 /* 1.epub in Resources */ = {isa = PBXBuildFile; fileRef = A25E0D8621C7739A00F9FC40 /* 1.epub */; };
+		A293EF51219C218D00D15225 /* DUAChapterModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A293EF50219C218D00D15225 /* DUAChapterModel.m */; };
+		A293EF54219C247700D15225 /* DUAPageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A293EF53219C247700D15225 /* DUAPageModel.m */; };
+		A2B194A521A24DEC00E1E3EA /* DUABackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2B194A421A24DEC00E1E3EA /* DUABackViewController.m */; };
+		A2B194A821A24EF900E1E3EA /* DUAPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2B194A721A24EF900E1E3EA /* DUAPageViewController.m */; };
+		A2B194AB21A24F2800E1E3EA /* DUAContainerPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2B194AA21A24F2800E1E3EA /* DUAContainerPageViewController.m */; };
+		A2B194AE21A24FC800E1E3EA /* DUAtranslationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2B194AD21A24FC800E1E3EA /* DUAtranslationController.m */; };
+		A2B194B121A250AD00E1E3EA /* DUAtranslationControllerExt.m in Sources */ = {isa = PBXBuildFile; fileRef = A2B194B021A250AD00E1E3EA /* DUAtranslationControllerExt.m */; };
+		A2B194B421A2964500E1E3EA /* DUAReader.m in Sources */ = {isa = PBXBuildFile; fileRef = A2B194B321A2964500E1E3EA /* DUAReader.m */; };
+		A2E461CB21A6A0700091F2D3 /* BookMarkButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E461C621A6A0700091F2D3 /* BookMarkButton.m */; };
+		A2E461CC21A6A0700091F2D3 /* DUASettingsBottomMenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2E461C721A6A0700091F2D3 /* DUASettingsBottomMenuView.xib */; };
+		A2E461CD21A6A0700091F2D3 /* DUASettingsTopMenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2E461C821A6A0700091F2D3 /* DUASettingsTopMenuView.xib */; };
+		A2E461CE21A6A0700091F2D3 /* DUASliderBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E461C921A6A0700091F2D3 /* DUASliderBar.m */; };
+		A2E461D421A6A0F70091F2D3 /* DUASettingsView.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E461D321A6A0F70091F2D3 /* DUASettingsView.m */; };
+		A2E461D721A6A47A0091F2D3 /* DUASettingsTopMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E461D621A6A47A0091F2D3 /* DUASettingsTopMenuView.m */; };
+		A2E461DA21A6A5070091F2D3 /* DUASettingsBottomMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E461D921A6A5070091F2D3 /* DUASettingsBottomMenuView.m */; };
+		A2F2E764219D195000A4184C /* DUADataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F2E763219D195000A4184C /* DUADataParser.m */; };
+		A2F2E76A219D198800A4184C /* DUATextDataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F2E769219D198800A4184C /* DUATextDataParser.m */; };
+		A2F2E76D219D62E900A4184C /* DUAEpubDataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F2E76C219D62E900A4184C /* DUAEpubDataParser.m */; };
+		A2FA07B9219AAC460066A6A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FA07B8219AAC460066A6A6 /* AppDelegate.m */; };
+		A2FA07BC219AAC460066A6A6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FA07BB219AAC460066A6A6 /* ViewController.m */; };
+		A2FA07BF219AAC460066A6A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2FA07BD219AAC460066A6A6 /* Main.storyboard */; };
+		A2FA07C1219AAC470066A6A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2FA07C0219AAC470066A6A6 /* Assets.xcassets */; };
+		A2FA07C4219AAC470066A6A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2FA07C2219AAC470066A6A6 /* LaunchScreen.storyboard */; };
+		A2FA07C7219AAC470066A6A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FA07C6219AAC470066A6A6 /* main.m */; };
+		A2FA07D1219AAC470066A6A6 /* MyReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FA07D0219AAC470066A6A6 /* MyReaderTests.m */; };
+		A2FA07DC219AAC470066A6A6 /* MyReaderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FA07DB219AAC470066A6A6 /* MyReaderUITests.m */; };
+		A2FA0813219AB2450066A6A6 /* DUAUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FA0812219AB2450066A6A6 /* DUAUtils.m */; };
+		A2FA082E219AB8920066A6A6 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A2FA082A219AB7E90066A6A6 /* libxml2.tbd */; };
+		A2FA0835219AD09B0066A6A6 /* DUAConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = A2FA0834219AD09B0066A6A6 /* DUAConfiguration.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2FA07CD219AAC470066A6A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2FA07AC219AAC460066A6A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2FA07B3219AAC460066A6A6;
+			remoteInfo = MyReader;
+		};
+		A2FA07D8219AAC470066A6A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2FA07AC219AAC460066A6A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2FA07B3219AAC460066A6A6;
+			remoteInfo = MyReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		44A820F7B090CFCA756BAB1C /* libPods-MyReader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyReader.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EF7427D78612239F5EF68E0 /* libPods-MyReaderUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyReaderUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		564CF3E378C4CCC625CC5016 /* Pods-MyReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyReader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyReader/Pods-MyReader.debug.xcconfig"; sourceTree = "<group>"; };
+		59755850550F3F26667CAA09 /* libPods-MyReaderTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyReaderTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8759F5451C06EBB874B525CB /* Pods-MyReader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyReader.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyReader/Pods-MyReader.release.xcconfig"; sourceTree = "<group>"; };
+		9D40C5544FEDFE8BCA99F495 /* Pods-MyReaderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyReaderUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyReaderUITests/Pods-MyReaderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A222D24921A5550D0085835B /* 郭黄之恋.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "郭黄之恋.txt"; sourceTree = "<group>"; };
+		A222D24A21A5550D0085835B /* 每天懂一点好玩心理学.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "每天懂一点好玩心理学.epub"; sourceTree = "<group>"; };
+		A2252ED421ABC55300997A3C /* 最后一个道士.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "最后一个道士.txt"; sourceTree = "<group>"; };
+		A230AFA1219EA920008B17F8 /* DUAStatusBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DUAStatusBar.h; sourceTree = "<group>"; };
+		A230AFA2219EA920008B17F8 /* DUAStatusBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DUAStatusBar.m; sourceTree = "<group>"; };
+		A230AFA4219EABA8008B17F8 /* DUATableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DUATableView.h; sourceTree = "<group>"; };
+		A230AFA5219EABA8008B17F8 /* DUATableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DUATableView.m; sourceTree = "<group>"; };
+		A230AFA7219EAD3E008B17F8 /* DUATableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DUATableViewCell.h; sourceTree = "<group>"; };
+		A230AFA8219EAD3E008B17F8 /* DUATableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DUATableViewCell.m; sourceTree = "<group>"; };
+		A230AFAA219EAEBA008B17F8 /* MyReader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyReader.pch; sourceTree = "<group>"; };
+		A230AFAB219EB2F5008B17F8 /* DUAConVexLensView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DUAConVexLensView.h; sourceTree = "<group>"; };
+		A230AFAC219EB2F5008B17F8 /* DUAConVexLensView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DUAConVexLensView.m; sourceTree = "<group>"; };
+		A230AFAE219EB79B008B17F8 /* DUAAttributedView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DUAAttributedView.h; sourceTree = "<group>"; };
+		A230AFAF219EB79B008B17F8 /* DUAAttributedView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DUAAttributedView.m; sourceTree = "<group>"; };
+		A25E0D5F21C740B600F9FC40 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		A25E0D7721C74A2000F9FC40 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		A25E0D7921C74A2B00F9FC40 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		A25E0D7B21C74A3400F9FC40 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A25E0D8221C74E9200F9FC40 /* 奇术之王.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = "奇术之王.epub"; sourceTree = "<group>"; };
+		A25E0D8621C7739A00F9FC40 /* 1.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.epub; sourceTree = "<group>"; };
+		A293EF4F219C218D00D15225 /* DUAChapterModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DUAChapterModel.h; sourceTree = "<group>"; };
+		A293EF50219C218D00D15225 /* DUAChapterModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DUAChapterModel.m; sourceTree = "<group>"; };
+		A293EF52219C247700D15225 /* DUAPageModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DUAPageModel.h; sourceTree = "<group>"; };
+		A293EF53219C247700D15225 /* DUAPageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DUAPageModel.m; sourceTree = "<group>"; };
+		A2B194A321A24DEC00E1E3EA /* DUABackViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DUABackViewController.h; sourceTree = "<group>"; };
+		A2B194A421A24DEC00E1E3EA /* DUABackViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DUABackViewController.m; sourceTree = "<group>"; };
+		A2B194A621A24EF900E1E3EA /* DUAPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DUAPageViewController.h; sourceTree = "<group>"; };
+		A2B194A721A24EF900E1E3EA /* DUAPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DUAPageViewController.m; sourceTree = "<group>"; };
+		A2B194A921A24F2800E1E3EA /* DUAContainerPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DUAContainerPageViewController.h; sourceTree = "<group>"; };
+		A2B194AA21A24F2800E1E3EA /* DUAContainerPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DUAContainerPageViewController.m; sourceTree = "<group>"; };
+		A2B194AC21A24FC800E1E3EA /* DUAtranslationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DUAtranslationController.h; sourceTree = "<group>"; };
+		A2B194AD21A24FC800E1E3EA /* DUAtranslationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DUAtranslationController.m; sourceTree = "<group>"; };
+		A2B194AF21A250AD00E1E3EA /* DUAtranslationControllerExt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DUAtranslationControllerExt.h; sourceTree = "<group>"; };
+		A2B194B021A250AD00E1E3EA /* DUAtranslationControllerExt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DUAtranslationControllerExt.m; sourceTree = "<group>"; };
+		A2B194B221A2964500E1E3EA /* DUAReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DUAReader.h; sourceTree = "<group>"; };
+		A2B194B321A2964500E1E3EA /* DUAReader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DUAReader.m; sourceTree = "<group>"; };
+		A2E461C521A6A0700091F2D3 /* DUASliderBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUASliderBar.h; sourceTree = "<group>"; };
+		A2E461C621A6A0700091F2D3 /* BookMarkButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookMarkButton.m; sourceTree = "<group>"; };
+		A2E461C721A6A0700091F2D3 /* DUASettingsBottomMenuView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DUASettingsBottomMenuView.xib; sourceTree = "<group>"; };
+		A2E461C821A6A0700091F2D3 /* DUASettingsTopMenuView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DUASettingsTopMenuView.xib; sourceTree = "<group>"; };
+		A2E461C921A6A0700091F2D3 /* DUASliderBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DUASliderBar.m; sourceTree = "<group>"; };
+		A2E461CA21A6A0700091F2D3 /* BookMarkButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookMarkButton.h; sourceTree = "<group>"; };
+		A2E461D221A6A0F70091F2D3 /* DUASettingsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DUASettingsView.h; sourceTree = "<group>"; };
+		A2E461D321A6A0F70091F2D3 /* DUASettingsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DUASettingsView.m; sourceTree = "<group>"; };
+		A2E461D521A6A47A0091F2D3 /* DUASettingsTopMenuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DUASettingsTopMenuView.h; sourceTree = "<group>"; };
+		A2E461D621A6A47A0091F2D3 /* DUASettingsTopMenuView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DUASettingsTopMenuView.m; sourceTree = "<group>"; };
+		A2E461D821A6A5070091F2D3 /* DUASettingsBottomMenuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DUASettingsBottomMenuView.h; sourceTree = "<group>"; };
+		A2E461D921A6A5070091F2D3 /* DUASettingsBottomMenuView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DUASettingsBottomMenuView.m; sourceTree = "<group>"; };
+		A2F2E762219D195000A4184C /* DUADataParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DUADataParser.h; sourceTree = "<group>"; };
+		A2F2E763219D195000A4184C /* DUADataParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DUADataParser.m; sourceTree = "<group>"; };
+		A2F2E768219D198800A4184C /* DUATextDataParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DUATextDataParser.h; sourceTree = "<group>"; };
+		A2F2E769219D198800A4184C /* DUATextDataParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DUATextDataParser.m; sourceTree = "<group>"; };
+		A2F2E76B219D62E900A4184C /* DUAEpubDataParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DUAEpubDataParser.h; sourceTree = "<group>"; };
+		A2F2E76C219D62E900A4184C /* DUAEpubDataParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DUAEpubDataParser.m; sourceTree = "<group>"; };
+		A2FA07B4219AAC460066A6A6 /* MyReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2FA07B7219AAC460066A6A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A2FA07B8219AAC460066A6A6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A2FA07BA219AAC460066A6A6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A2FA07BB219AAC460066A6A6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A2FA07BE219AAC460066A6A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2FA07C0219AAC470066A6A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2FA07C3219AAC470066A6A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2FA07C5219AAC470066A6A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2FA07C6219AAC470066A6A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A2FA07CC219AAC470066A6A6 /* MyReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2FA07D0219AAC470066A6A6 /* MyReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyReaderTests.m; sourceTree = "<group>"; };
+		A2FA07D2219AAC470066A6A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2FA07D7219AAC470066A6A6 /* MyReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2FA07DB219AAC470066A6A6 /* MyReaderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyReaderUITests.m; sourceTree = "<group>"; };
+		A2FA07DD219AAC470066A6A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2FA0811219AB2450066A6A6 /* DUAUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DUAUtils.h; sourceTree = "<group>"; };
+		A2FA0812219AB2450066A6A6 /* DUAUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DUAUtils.m; sourceTree = "<group>"; };
+		A2FA082A219AB7E90066A6A6 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		A2FA082C219AB8380066A6A6 /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
+		A2FA0833219AD09B0066A6A6 /* DUAConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DUAConfiguration.h; sourceTree = "<group>"; };
+		A2FA0834219AD09B0066A6A6 /* DUAConfiguration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DUAConfiguration.m; sourceTree = "<group>"; };
+		BD0317422E2941E4A0AEE81A /* Pods-MyReaderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyReaderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyReaderTests/Pods-MyReaderTests.release.xcconfig"; sourceTree = "<group>"; };
+		C5C017C039EC546DE19A0E74 /* Pods-MyReaderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyReaderUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyReaderUITests/Pods-MyReaderUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F2502ADE0B7C7FB7E1EFB0BD /* Pods-MyReaderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyReaderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyReaderTests/Pods-MyReaderTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2FA07B1219AAC460066A6A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A25E0D7C21C74A3400F9FC40 /* SystemConfiguration.framework in Frameworks */,
+				A25E0D7A21C74A2B00F9FC40 /* libsqlite3.tbd in Frameworks */,
+				A25E0D7821C74A2000F9FC40 /* libbz2.tbd in Frameworks */,
+				A25E0D6021C740B600F9FC40 /* CoreTelephony.framework in Frameworks */,
+				A2FA082E219AB8920066A6A6 /* libxml2.tbd in Frameworks */,
+				0A1796CA0E295C35ACCBD755 /* libPods-MyReader.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2FA07C9219AAC470066A6A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10A8F43F97C4DC69F009AB05 /* libPods-MyReaderTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2FA07D4219AAC470066A6A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89AE776F02DB2A9C72152532 /* libPods-MyReaderUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		595F0166F9BD28065B207FBA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				564CF3E378C4CCC625CC5016 /* Pods-MyReader.debug.xcconfig */,
+				8759F5451C06EBB874B525CB /* Pods-MyReader.release.xcconfig */,
+				F2502ADE0B7C7FB7E1EFB0BD /* Pods-MyReaderTests.debug.xcconfig */,
+				BD0317422E2941E4A0AEE81A /* Pods-MyReaderTests.release.xcconfig */,
+				C5C017C039EC546DE19A0E74 /* Pods-MyReaderUITests.debug.xcconfig */,
+				9D40C5544FEDFE8BCA99F495 /* Pods-MyReaderUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A222D24821A5550D0085835B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A25E0D8621C7739A00F9FC40 /* 1.epub */,
+				A25E0D8221C74E9200F9FC40 /* 奇术之王.epub */,
+				A2252ED421ABC55300997A3C /* 最后一个道士.txt */,
+				A222D24921A5550D0085835B /* 郭黄之恋.txt */,
+				A222D24A21A5550D0085835B /* 每天懂一点好玩心理学.epub */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A2E461C421A6A0700091F2D3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A2E461CA21A6A0700091F2D3 /* BookMarkButton.h */,
+				A2E461C621A6A0700091F2D3 /* BookMarkButton.m */,
+				A2E461C521A6A0700091F2D3 /* DUASliderBar.h */,
+				A2E461C921A6A0700091F2D3 /* DUASliderBar.m */,
+				A2E461D521A6A47A0091F2D3 /* DUASettingsTopMenuView.h */,
+				A2E461D621A6A47A0091F2D3 /* DUASettingsTopMenuView.m */,
+				A2E461C821A6A0700091F2D3 /* DUASettingsTopMenuView.xib */,
+				A2E461D821A6A5070091F2D3 /* DUASettingsBottomMenuView.h */,
+				A2E461D921A6A5070091F2D3 /* DUASettingsBottomMenuView.m */,
+				A2E461C721A6A0700091F2D3 /* DUASettingsBottomMenuView.xib */,
+				A2E461D221A6A0F70091F2D3 /* DUASettingsView.h */,
+				A2E461D321A6A0F70091F2D3 /* DUASettingsView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A2FA07AB219AAC460066A6A6 = {
+			isa = PBXGroup;
+			children = (
+				A2FA07B6219AAC460066A6A6 /* MyReader */,
+				A2FA07CF219AAC470066A6A6 /* MyReaderTests */,
+				A2FA07DA219AAC470066A6A6 /* MyReaderUITests */,
+				A2FA07B5219AAC460066A6A6 /* Products */,
+				A2FA0829219AB7E90066A6A6 /* Frameworks */,
+				595F0166F9BD28065B207FBA /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		A2FA07B5219AAC460066A6A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2FA07B4219AAC460066A6A6 /* MyReader.app */,
+				A2FA07CC219AAC470066A6A6 /* MyReaderTests.xctest */,
+				A2FA07D7219AAC470066A6A6 /* MyReaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2FA07B6219AAC460066A6A6 /* MyReader */ = {
+			isa = PBXGroup;
+			children = (
+				A2FA080C219AB0520066A6A6 /* SourceCore */,
+				A2E461C421A6A0700091F2D3 /* Views */,
+				A2FA07B7219AAC460066A6A6 /* AppDelegate.h */,
+				A2FA07B8219AAC460066A6A6 /* AppDelegate.m */,
+				A2FA07BA219AAC460066A6A6 /* ViewController.h */,
+				A2FA07BB219AAC460066A6A6 /* ViewController.m */,
+				A2FA07BD219AAC460066A6A6 /* Main.storyboard */,
+				A2FA07C0219AAC470066A6A6 /* Assets.xcassets */,
+				A2FA07C2219AAC470066A6A6 /* LaunchScreen.storyboard */,
+				A2FA07C5219AAC470066A6A6 /* Info.plist */,
+				A2FA07C6219AAC470066A6A6 /* main.m */,
+				A230AFAA219EAEBA008B17F8 /* MyReader.pch */,
+				A222D24821A5550D0085835B /* Resources */,
+			);
+			path = MyReader;
+			sourceTree = "<group>";
+		};
+		A2FA07CF219AAC470066A6A6 /* MyReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2FA07D0219AAC470066A6A6 /* MyReaderTests.m */,
+				A2FA07D2219AAC470066A6A6 /* Info.plist */,
+			);
+			path = MyReaderTests;
+			sourceTree = "<group>";
+		};
+		A2FA07DA219AAC470066A6A6 /* MyReaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A2FA07DB219AAC470066A6A6 /* MyReaderUITests.m */,
+				A2FA07DD219AAC470066A6A6 /* Info.plist */,
+			);
+			path = MyReaderUITests;
+			sourceTree = "<group>";
+		};
+		A2FA080C219AB0520066A6A6 /* SourceCore */ = {
+			isa = PBXGroup;
+			children = (
+				A2FA080E219AB0520066A6A6 /* Controller */,
+				A2FA0810219AB0520066A6A6 /* Views */,
+				A2FA082F219AD0820066A6A6 /* DataModel */,
+				A2FA080D219AB0520066A6A6 /* Utils */,
+			);
+			path = SourceCore;
+			sourceTree = "<group>";
+		};
+		A2FA080D219AB0520066A6A6 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A2FA0811219AB2450066A6A6 /* DUAUtils.h */,
+				A2FA0812219AB2450066A6A6 /* DUAUtils.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		A2FA080E219AB0520066A6A6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A2B194B221A2964500E1E3EA /* DUAReader.h */,
+				A2B194B321A2964500E1E3EA /* DUAReader.m */,
+				A2B194A921A24F2800E1E3EA /* DUAContainerPageViewController.h */,
+				A2B194AA21A24F2800E1E3EA /* DUAContainerPageViewController.m */,
+				A2B194AF21A250AD00E1E3EA /* DUAtranslationControllerExt.h */,
+				A2B194B021A250AD00E1E3EA /* DUAtranslationControllerExt.m */,
+				A2B194A621A24EF900E1E3EA /* DUAPageViewController.h */,
+				A2B194A721A24EF900E1E3EA /* DUAPageViewController.m */,
+				A2B194A321A24DEC00E1E3EA /* DUABackViewController.h */,
+				A2B194A421A24DEC00E1E3EA /* DUABackViewController.m */,
+				A2B194AC21A24FC800E1E3EA /* DUAtranslationController.h */,
+				A2B194AD21A24FC800E1E3EA /* DUAtranslationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A2FA0810219AB0520066A6A6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A230AFA1219EA920008B17F8 /* DUAStatusBar.h */,
+				A230AFA2219EA920008B17F8 /* DUAStatusBar.m */,
+				A230AFA4219EABA8008B17F8 /* DUATableView.h */,
+				A230AFA5219EABA8008B17F8 /* DUATableView.m */,
+				A230AFA7219EAD3E008B17F8 /* DUATableViewCell.h */,
+				A230AFA8219EAD3E008B17F8 /* DUATableViewCell.m */,
+				A230AFAE219EB79B008B17F8 /* DUAAttributedView.h */,
+				A230AFAF219EB79B008B17F8 /* DUAAttributedView.m */,
+				A230AFAB219EB2F5008B17F8 /* DUAConVexLensView.h */,
+				A230AFAC219EB2F5008B17F8 /* DUAConVexLensView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A2FA0829219AB7E90066A6A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A25E0D7B21C74A3400F9FC40 /* SystemConfiguration.framework */,
+				A25E0D7921C74A2B00F9FC40 /* libsqlite3.tbd */,
+				A25E0D7721C74A2000F9FC40 /* libbz2.tbd */,
+				A25E0D5F21C740B600F9FC40 /* CoreTelephony.framework */,
+				A2FA082C219AB8380066A6A6 /* libxml2.2.tbd */,
+				A2FA082A219AB7E90066A6A6 /* libxml2.tbd */,
+				44A820F7B090CFCA756BAB1C /* libPods-MyReader.a */,
+				59755850550F3F26667CAA09 /* libPods-MyReaderTests.a */,
+				4EF7427D78612239F5EF68E0 /* libPods-MyReaderUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2FA082F219AD0820066A6A6 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				A2FA0830219AD0820066A6A6 /* config */,
+				A2FA0831219AD0820066A6A6 /* parser */,
+				A2FA0832219AD0820066A6A6 /* storage */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		A2FA0830219AD0820066A6A6 /* config */ = {
+			isa = PBXGroup;
+			children = (
+				A2FA0833219AD09B0066A6A6 /* DUAConfiguration.h */,
+				A2FA0834219AD09B0066A6A6 /* DUAConfiguration.m */,
+			);
+			path = config;
+			sourceTree = "<group>";
+		};
+		A2FA0831219AD0820066A6A6 /* parser */ = {
+			isa = PBXGroup;
+			children = (
+				A2F2E762219D195000A4184C /* DUADataParser.h */,
+				A2F2E763219D195000A4184C /* DUADataParser.m */,
+				A2F2E768219D198800A4184C /* DUATextDataParser.h */,
+				A2F2E769219D198800A4184C /* DUATextDataParser.m */,
+				A2F2E76B219D62E900A4184C /* DUAEpubDataParser.h */,
+				A2F2E76C219D62E900A4184C /* DUAEpubDataParser.m */,
+			);
+			path = parser;
+			sourceTree = "<group>";
+		};
+		A2FA0832219AD0820066A6A6 /* storage */ = {
+			isa = PBXGroup;
+			children = (
+				A293EF4F219C218D00D15225 /* DUAChapterModel.h */,
+				A293EF50219C218D00D15225 /* DUAChapterModel.m */,
+				A293EF52219C247700D15225 /* DUAPageModel.h */,
+				A293EF53219C247700D15225 /* DUAPageModel.m */,
+			);
+			path = storage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2FA07B3219AAC460066A6A6 /* MyReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2FA07E0219AAC470066A6A6 /* Build configuration list for PBXNativeTarget "MyReader" */;
+			buildPhases = (
+				CE4F6E69A1664C3B3E9EC1D6 /* [CP] Check Pods Manifest.lock */,
+				A2FA07B0219AAC460066A6A6 /* Sources */,
+				A2FA07B1219AAC460066A6A6 /* Frameworks */,
+				A2FA07B2219AAC460066A6A6 /* Resources */,
+				BDE8176C7810F036FC78639B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyReader;
+			productName = MyReader;
+			productReference = A2FA07B4219AAC460066A6A6 /* MyReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2FA07CB219AAC470066A6A6 /* MyReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2FA07E3219AAC470066A6A6 /* Build configuration list for PBXNativeTarget "MyReaderTests" */;
+			buildPhases = (
+				F31CEC09501E083B6D433762 /* [CP] Check Pods Manifest.lock */,
+				A2FA07C8219AAC470066A6A6 /* Sources */,
+				A2FA07C9219AAC470066A6A6 /* Frameworks */,
+				A2FA07CA219AAC470066A6A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2FA07CE219AAC470066A6A6 /* PBXTargetDependency */,
+			);
+			name = MyReaderTests;
+			productName = MyReaderTests;
+			productReference = A2FA07CC219AAC470066A6A6 /* MyReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A2FA07D6219AAC470066A6A6 /* MyReaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2FA07E6219AAC470066A6A6 /* Build configuration list for PBXNativeTarget "MyReaderUITests" */;
+			buildPhases = (
+				9510CA511BB94A0ED25A7C11 /* [CP] Check Pods Manifest.lock */,
+				A2FA07D3219AAC470066A6A6 /* Sources */,
+				A2FA07D4219AAC470066A6A6 /* Frameworks */,
+				A2FA07D5219AAC470066A6A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2FA07D9219AAC470066A6A6 /* PBXTargetDependency */,
+			);
+			name = MyReaderUITests;
+			productName = MyReaderUITests;
+			productReference = A2FA07D7219AAC470066A6A6 /* MyReaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2FA07AC219AAC460066A6A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = xiejc;
+				TargetAttributes = {
+					A2FA07B3219AAC460066A6A6 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					A2FA07CB219AAC470066A6A6 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = A2FA07B3219AAC460066A6A6;
+					};
+					A2FA07D6219AAC470066A6A6 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = A2FA07B3219AAC460066A6A6;
+					};
+				};
+			};
+			buildConfigurationList = A2FA07AF219AAC460066A6A6 /* Build configuration list for PBXProject "MyReader" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2FA07AB219AAC460066A6A6;
+			productRefGroup = A2FA07B5219AAC460066A6A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2FA07B3219AAC460066A6A6 /* MyReader */,
+				A2FA07CB219AAC470066A6A6 /* MyReaderTests */,
+				A2FA07D6219AAC470066A6A6 /* MyReaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2FA07B2219AAC460066A6A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2FA07C4219AAC470066A6A6 /* LaunchScreen.storyboard in Resources */,
+				A2FA07C1219AAC470066A6A6 /* Assets.xcassets in Resources */,
+				A222D24C21A5550D0085835B /* 每天懂一点好玩心理学.epub in Resources */,
+				A2E461CC21A6A0700091F2D3 /* DUASettingsBottomMenuView.xib in Resources */,
+				A2FA07BF219AAC460066A6A6 /* Main.storyboard in Resources */,
+				A25E0D8721C7739A00F9FC40 /* 1.epub in Resources */,
+				A2E461CD21A6A0700091F2D3 /* DUASettingsTopMenuView.xib in Resources */,
+				A25E0D8421C74E9300F9FC40 /* 奇术之王.epub in Resources */,
+				A222D24B21A5550D0085835B /* 郭黄之恋.txt in Resources */,
+				A2252ED621ABC55300997A3C /* 最后一个道士.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2FA07CA219AAC470066A6A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2FA07D5219AAC470066A6A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9510CA511BB94A0ED25A7C11 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyReaderUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDE8176C7810F036FC78639B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MyReader/Pods-MyReader-resources.sh",
+				"${PODS_ROOT}/ARThirdTools/ARThirdTools/WJProgressExtension/MBProgressExtension.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MBProgressExtension.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyReader/Pods-MyReader-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE4F6E69A1664C3B3E9EC1D6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyReader-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F31CEC09501E083B6D433762 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyReaderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2FA07B0219AAC460066A6A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2E461D721A6A47A0091F2D3 /* DUASettingsTopMenuView.m in Sources */,
+				A2B194A821A24EF900E1E3EA /* DUAPageViewController.m in Sources */,
+				A2E461CE21A6A0700091F2D3 /* DUASliderBar.m in Sources */,
+				A230AFA6219EABA8008B17F8 /* DUATableView.m in Sources */,
+				A2E461DA21A6A5070091F2D3 /* DUASettingsBottomMenuView.m in Sources */,
+				A2E461D421A6A0F70091F2D3 /* DUASettingsView.m in Sources */,
+				A2B194AE21A24FC800E1E3EA /* DUAtranslationController.m in Sources */,
+				A2FA0813219AB2450066A6A6 /* DUAUtils.m in Sources */,
+				A2B194A521A24DEC00E1E3EA /* DUABackViewController.m in Sources */,
+				A2B194B421A2964500E1E3EA /* DUAReader.m in Sources */,
+				A2FA07BC219AAC460066A6A6 /* ViewController.m in Sources */,
+				A293EF54219C247700D15225 /* DUAPageModel.m in Sources */,
+				A2FA07C7219AAC470066A6A6 /* main.m in Sources */,
+				A230AFAD219EB2F5008B17F8 /* DUAConVexLensView.m in Sources */,
+				A2FA0835219AD09B0066A6A6 /* DUAConfiguration.m in Sources */,
+				A230AFA9219EAD3E008B17F8 /* DUATableViewCell.m in Sources */,
+				A2B194B121A250AD00E1E3EA /* DUAtranslationControllerExt.m in Sources */,
+				A2FA07B9219AAC460066A6A6 /* AppDelegate.m in Sources */,
+				A293EF51219C218D00D15225 /* DUAChapterModel.m in Sources */,
+				A2F2E764219D195000A4184C /* DUADataParser.m in Sources */,
+				A2B194AB21A24F2800E1E3EA /* DUAContainerPageViewController.m in Sources */,
+				A2E461CB21A6A0700091F2D3 /* BookMarkButton.m in Sources */,
+				A230AFB0219EB79B008B17F8 /* DUAAttributedView.m in Sources */,
+				A230AFA3219EA920008B17F8 /* DUAStatusBar.m in Sources */,
+				A2F2E76D219D62E900A4184C /* DUAEpubDataParser.m in Sources */,
+				A2F2E76A219D198800A4184C /* DUATextDataParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2FA07C8219AAC470066A6A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2FA07D1219AAC470066A6A6 /* MyReaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2FA07D3219AAC470066A6A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2FA07DC219AAC470066A6A6 /* MyReaderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2FA07CE219AAC470066A6A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2FA07B3219AAC460066A6A6 /* MyReader */;
+			targetProxy = A2FA07CD219AAC470066A6A6 /* PBXContainerItemProxy */;
+		};
+		A2FA07D9219AAC470066A6A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2FA07B3219AAC460066A6A6 /* MyReader */;
+			targetProxy = A2FA07D8219AAC470066A6A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A2FA07BD219AAC460066A6A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2FA07BE219AAC460066A6A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2FA07C2219AAC470066A6A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2FA07C3219AAC470066A6A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2FA07DE219AAC470066A6A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A2FA07DF219AAC470066A6A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2FA07E1219AAC470066A6A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 564CF3E378C4CCC625CC5016 /* Pods-MyReader.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = ET984MGM7Q;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MyReader/ThirdLibs/Umeng/umcommonlog/umcommonlog_ios_1.0.0",
+					"$(PROJECT_DIR)/MyReader/ThirdLibs/Umeng/thirdparties/thirdparties_ios_1.0.5",
+					"$(PROJECT_DIR)/MyReader/ThirdLibs/Umeng/common/common_ios_1.5.3/normal",
+					"$(PROJECT_DIR)/MyReader/ThirdLibs/Umeng/analytics/analytics_ios_5.5.4",
+					"$(PROJECT_DIR)/MyReader/ThirdLibs/Umeng/share/share_ios_6.9.5/UMSocialUI",
+					"$(PROJECT_DIR)/MyReader/ThirdLibs/Umeng/share/share_ios_6.9.5",
+					"$(PROJECT_DIR)/MyReader/ThirdLibs/UMeng/umcommonlog/umcommonlog_ios_1.0.0",
+					"$(PROJECT_DIR)/MyReader/ThirdLibs/UMeng/thirdparties/thirdparties_ios_1.0.5",
+					"$(PROJECT_DIR)/MyReader/ThirdLibs/UMeng/common/common_ios_1.5.3/normal",
+					"$(PROJECT_DIR)/MyReader/ThirdLibs/UMeng/analytics/analytics_ios_5.5.4",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MyReader/MyReader.pch;
+				HEADER_SEARCH_PATHS = "${SDKROOT}/usr/include/libxml2";
+				INFOPLIST_FILE = MyReader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"${SDKROOT}/usr/include/libxml2",
+					"$(inherited)",
+					"$(PROJECT_DIR)/MyReader/ThirdLibs/Umeng/share/share_ios_6.9.5/SocialLibraries/WeChat",
+					"$(PROJECT_DIR)/MyReader/ThirdLibs/Umeng/share/share_ios_6.9.5/SocialLibraries/Sina",
+					"$(PROJECT_DIR)/MyReader/ThirdLibs/Umeng/share/share_ios_6.9.5/SocialLibraries/QQ",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yiche.MyReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "match Development *";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2FA07E2219AAC470066A6A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8759F5451C06EBB874B525CB /* Pods-MyReader.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 77MMW6NR5H;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MyReader/ThirdLibs/Umeng/umcommonlog/umcommonlog_ios_1.0.0",
+					"$(PROJECT_DIR)/MyReader/ThirdLibs/Umeng/thirdparties/thirdparties_ios_1.0.5",
+					"$(PROJECT_DIR)/MyReader/ThirdLibs/Umeng/common/common_ios_1.5.3/normal",
+					"$(PROJECT_DIR)/MyReader/ThirdLibs/Umeng/analytics/analytics_ios_5.5.4",
+					"$(PROJECT_DIR)/MyReader/ThirdLibs/Umeng/share/share_ios_6.9.5/UMSocialUI",
+					"$(PROJECT_DIR)/MyReader/ThirdLibs/Umeng/share/share_ios_6.9.5",
+					"$(PROJECT_DIR)/MyReader/ThirdLibs/UMeng/umcommonlog/umcommonlog_ios_1.0.0",
+					"$(PROJECT_DIR)/MyReader/ThirdLibs/UMeng/thirdparties/thirdparties_ios_1.0.5",
+					"$(PROJECT_DIR)/MyReader/ThirdLibs/UMeng/common/common_ios_1.5.3/normal",
+					"$(PROJECT_DIR)/MyReader/ThirdLibs/UMeng/analytics/analytics_ios_5.5.4",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MyReader/MyReader.pch;
+				HEADER_SEARCH_PATHS = "${SDKROOT}/usr/include/libxml2";
+				INFOPLIST_FILE = MyReader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"${SDKROOT}/usr/include/libxml2",
+					"$(inherited)",
+					"$(PROJECT_DIR)/MyReader/ThirdLibs/Umeng/share/share_ios_6.9.5/SocialLibraries/WeChat",
+					"$(PROJECT_DIR)/MyReader/ThirdLibs/Umeng/share/share_ios_6.9.5/SocialLibraries/Sina",
+					"$(PROJECT_DIR)/MyReader/ThirdLibs/Umeng/share/share_ios_6.9.5/SocialLibraries/QQ",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yiche.MyReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = 299_2017.09.26;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A2FA07E4219AAC470066A6A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2502ADE0B7C7FB7E1EFB0BD /* Pods-MyReaderTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyReaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yiche.MyReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyReader.app/MyReader";
+			};
+			name = Debug;
+		};
+		A2FA07E5219AAC470066A6A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD0317422E2941E4A0AEE81A /* Pods-MyReaderTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyReaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yiche.MyReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyReader.app/MyReader";
+			};
+			name = Release;
+		};
+		A2FA07E7219AAC470066A6A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5C017C039EC546DE19A0E74 /* Pods-MyReaderUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyReaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yiche.MyReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyReader;
+			};
+			name = Debug;
+		};
+		A2FA07E8219AAC470066A6A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D40C5544FEDFE8BCA99F495 /* Pods-MyReaderUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyReaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yiche.MyReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyReader;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2FA07AF219AAC460066A6A6 /* Build configuration list for PBXProject "MyReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2FA07DE219AAC470066A6A6 /* Debug */,
+				A2FA07DF219AAC470066A6A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2FA07E0219AAC470066A6A6 /* Build configuration list for PBXNativeTarget "MyReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2FA07E1219AAC470066A6A6 /* Debug */,
+				A2FA07E2219AAC470066A6A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2FA07E3219AAC470066A6A6 /* Build configuration list for PBXNativeTarget "MyReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2FA07E4219AAC470066A6A6 /* Debug */,
+				A2FA07E5219AAC470066A6A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2FA07E6219AAC470066A6A6 /* Build configuration list for PBXNativeTarget "MyReaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2FA07E7219AAC470066A6A6 /* Debug */,
+				A2FA07E8219AAC470066A6A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2FA07AC219AAC460066A6A6 /* Project object */;
+}

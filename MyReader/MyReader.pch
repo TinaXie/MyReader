@@ -1,0 +1,23 @@
+//
+//  MyReader.pch
+//  MyReader
+//
+//  Created by xiejc on 2018/11/16.
+//  Copyright © 2018 xiejc. All rights reserved.
+//
+
+#ifndef MyReader_pch
+#define MyReader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
+#import <DTCoreText/DTCoreText.h>
+
+#import "ARThirdTools.h"
+
+
+#endif /* MyReader_pch */
